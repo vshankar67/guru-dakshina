@@ -1,0 +1,64 @@
+#techsupport {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section-title {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.support-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.support-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.support-card img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.support-text {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.support-text h2 {
+  margin-bottom: 10px;
+}
+
+.support-text p {
+  margin-bottom: 15px;
+}
+
+button {
+  background: #172035;
+  color: white;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #09568d;
+  transform: scale(1.05);
+  cursor: pointer;
+}
